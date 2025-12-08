@@ -1,0 +1,11 @@
+{
+  "model_name": "HuggingFaceTB/SmolLM2-135M-SFT-Only",
+  "dataset_name": "intel/orca_dpo_pairs",
+  "group_size": 2,
+  "batch_size": 2,
+  "num_steps": 100,
+  "max_new_tokens": 48,
+  "beta_kl": 0.1,
+  "lr": 8e-06,
+  "seed": 42
+}
